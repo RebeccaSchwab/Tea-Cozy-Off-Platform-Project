@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica;
     font-size: 22px;
@@ -16,11 +20,14 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
-    height: 68px;
+    height: 69px;
+    width: 100%;
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
     position: fixed;
+    top: 0;
+    background-color: black;
 }
 
 .nav-section {
@@ -39,3 +46,32 @@ a {
 a:link {
     color: seashell;
 }
+
+.mission {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*w0bfx9*_ga*MTk3ODQ5OTA3LjE2MTIxMzc1ODM.*_ga_3LRZM6TM9L*MTY3MjY4Njk2Ni44NS4xLjE2NzI2ODkzNjcuNTYuMC4w");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.mission-banner {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
