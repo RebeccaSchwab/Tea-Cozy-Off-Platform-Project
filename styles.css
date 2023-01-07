@@ -13,6 +13,8 @@ body {
     margin-right: auto;
     text-align: center;
     margin: 0;
+    justify-content: center;
+    justify-items: center;
 }
 
 header {
@@ -56,6 +58,7 @@ a:link {
     background-position: center;
     align-items: center;
     margin-top: 69px;
+    margin-bottom: 75px;
 }
 
 .mission-banner {
@@ -75,3 +78,19 @@ h4 {
     margin: 10px 0;
 }
 
+.container {
+    display: inline-flex;
+    justify-content: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    margin: 15px 15px 50px 15px;
+}
+
+#menu-item {
+       height: 200px;
+}
