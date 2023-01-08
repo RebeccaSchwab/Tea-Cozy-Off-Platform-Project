@@ -123,8 +123,15 @@ h3 {
     width: 300px;
     background-color: black;
     margin: 15px 20px 0 20px;
-    /*display: flex;
-    justify-content: center;
-    align-content: space-between;
-    flex-direction: column;*/
+}
+
+address {
+    height: 200px;
+    padding-top: 15px;
+    font-style: normal;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
 }
